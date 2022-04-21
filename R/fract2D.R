@@ -72,7 +72,7 @@ fract2D <- function(dir = NULL, box.size = NULL, save.dir = NULL, save.name = NU
   }
 
 
-  files <- list.files(path = dir, pattern="*.jpg", full.names=T, recursive=FALSE)
+  files <- list.files(path = dir, pattern=".jpg", full.names=T, recursive=FALSE)
 
   box <- c()
   dat <- NULL
